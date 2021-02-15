@@ -6,9 +6,9 @@ The InterPlanetary File System (IPFS) is a protocol and peer-to-peer network for
 
 ## To run the program
 * Install IPFS
-* Run IPFS. You can use $ ipfs daemon --writable = True
+* Run IPFS. You can use `ipfs daemon --writable = True`
 * access ipfs web interface web interface using [https://127.0.01:5001/webui](https://127.0.01:5001/webui)
-* Launch ganache. run $ ganache-cli
+* Launch ganache. run `ganache-cli`
 * compile and deploy ipfs.sol in remix. deploy with **Web2 Provider** environment
 * change the contract address in **SmartContractConfig.js** with the contract address of the smart contract you just deployed
 * run project with `npm start` or `yarn start`
